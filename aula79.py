@@ -1,0 +1,9 @@
+#exemplo de uso de sets
+letras = set();
+while True:
+    letra = input('Digite: ');
+    letras.add(letra)
+    if 'l' in letras:
+        print('Parabéns');
+        break
+    print(letras);
